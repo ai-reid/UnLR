@@ -10,16 +10,16 @@ The file structure of the datasets for training is shown as below.<br>
 │   │   └── bounding_box_train
 │   │   └── query
 │   │   └── ...
-├── msmst17<br>
-│   │── MSMT17<br>
-│   │   │── bounding_box_test<br>
-│   │   └── bounding_box_train<br>
-│   │   └── query<br>
-│   │   └── ...<br>
+├── msmst17
+│   │── MSMT17
+│   │   │── bounding_box_test
+│   │   └── bounding_box_train
+│   │   └── query
+│   │   └── ...
 ├── personx<br>
 │   │── PersonX<br>
-│   │   │── bounding_box_test<br>
-│   │   └── bounding_box_train<br>
-│   │   └── query<br>
-│   │   └── ...<br>
-`
+│   │   │── bounding_box_test
+│   │   └── bounding_box_train
+│   │   └── query
+│   │   └── ...
+```
