@@ -24,3 +24,11 @@ The file structure of the datasets for training is shown as below.<br>
 │   │   └── query
 │   │   └── ...
 ```
+# Train 
+```
+python examples/uncertain_main.py
+```
+# Test
+```
+python examples/test.py
+```
