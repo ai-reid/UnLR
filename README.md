@@ -1,7 +1,15 @@
 # UnLR
-Offical implementation of our Uncertainty-guided Robust Labels Refinement for Unsupervised Person Re-identification in NCAA2023 by Chengjun Wang, Jinjia Peng, Zeze Tao and Huibing Wang.
+Offical implementation of our "Uncertainty-guided Robust Labels Refinement for Unsupervised Person Re-identification" in NCAA2023 by Chengjun Wang, Jinjia Peng, Zeze Tao and Huibing Wang.
 
-# Dataset prepration
+## Requirements
+- Python 3.6+
+- Pytorch 1.9.0
+- For more detailed requirements, run
+  ```
+  pip install -r requirements.txt
+  ```
+
+## Dataset prepration
 The file structure of the datasets for training is shown as below.<br>
 ```
 /path/to/your/dataset
@@ -24,11 +32,11 @@ The file structure of the datasets for training is shown as below.<br>
 │   │   └── query
 │   │   └── ...
 ```
-# Train 
+## Train 
 ```
 python examples/uncertain_main.py
 ```
-# Test
+## Test
 ```
 python examples/test.py
 ```
